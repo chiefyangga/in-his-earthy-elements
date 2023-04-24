@@ -1,0 +1,34 @@
+{
+  "name": "in-his-earthy-elements",
+  "displayName": "in his earthy elements",
+  "description": "wind, water, stone, sand, grass, ground themie",
+  "version": "0.2.0",
+  "icon": "earth.png",
+  "publisher": "chiefyangga",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chiefyangga/in-his-earthy-elements"
+  },
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "keywords": [
+    "theme",
+    "mild",
+    "brown",
+    "earth",
+    "chiefyangga"
+  ],
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "in-his-earthy-elements",
+        "uiTheme": "vs-dark",
+        "path": "./themes/in-his-earthy-elements-color-theme.json"
+      }
+    ]
+  }
+}
